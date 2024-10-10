@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="магазин круп">
+    <meta name="keywords" content="онлайн магазин круп">
+    <link rel="stylesheet" href="outlines.css">
+    <title>Магазин круп</title>
+</head>
+
+
+<body>
+    <header>
+        <div class="main">
+        <h1 class="Title">Магазин круп</h1>
+        <!-- TODO_2_LABA: сдвинуть направо логин/регистрацию -->
+        <button>Логин</button>
+        <button>Регистрация</button>
+        <!-- TODO_2_LABA: передвинуть фото налево -->
+        <h2><a href="/" rel="home"> <img src="logo.png" width="100" height="100"  ></a></h2>
+    </header>
+    <main>
+        <aside class="main">
+            <strong>Совет:</strong> ешьте гречку!
+        </aside>
+        <section>
+            Меню
+            <nav>
+                <ul>
+                  <li><a href='#'>Каталог</a></li>
+                  <li><a href='#'>Личный кабинет</a></li>
+                  <li><a href='#'>Оплата</a></li>
+                  <li><a href='#'>Доставка</a></li>
+                  <li><a href='#'>Контакты</a></li>
+                </ul>
+              </nav>
+        </section>
+        <section id="my-products">
+            <h1>Каталог</h1>
+            <ul>
+              <li>
+                <a href="ссылка_на_покупку_пшена">
+                  <article class="product-item">
+                    <h2 itemprop="name">Пшено</h2>
+                     <!-- TODO_2_LABA: форматировать фото -->
+                    <img src="millet-1.jpg">
+                    <p>50$</p>
+                  </article>
+                </a>
+              </li>
+              <li>
+                <a href="ссылка_на_покупку_манки">
+                  <article class="product-item">
+                    <h2 itemprop="name">Манка</h2>
+                    <!-- TODO_2_LABA: форматировать фото -->
+                    <img src="dai-manki.jpg" alt="product 2">
+                    <p>130$</p>
+                  </article>
+                </a>
+              </li>
+              <li>
+                <a href="ссылка_на_покупку_гречки">
+                  <article class="product-item">
+                    <h2 itemprop="name">Гречка</h2>
+                    <img src="volga.jpg">
+                    <p><del>94$</del>Скидка - 85$</p>
+                  </article>
+                </a>
+              </li>
+            </ul>
+          </section>
+          <pre> хз зачем современным сайтам псевдографика, вставил сюда только из-за условия
+            ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⠿⢿⣿⣿⣿⣿⣿⣿
+            ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⢁⣴⣾⣿⣷⣦⣌⠙⢿⣿⣿⣿
+            ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⢁⣴⣿⣿⣿⣿⣿⣿⣿⣷⡈⢻⣿⣿
+            ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⢁⣴⣿⣿⠟⠋⣉⠙⢻⣿⣿⣿⣷⠀⣿⣿
+            ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⢁⣴⣿⣿⠟⢁⣴⣿⣿⡷⢀⣿⣿⣿⡿⠀⣿⣿
+            ⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⢁⣴⣿⣿⠟⢁⣴⣿⣿⡿⠋⣠⣾⣿⣿⠟⢁⣼⣿⣿
+            ⣿⣿⣿⣿⣿⣿⣿⠟⢁⣴⣿⣿⠟⢁⣴⣿⣿⡿⠋⣠⣾⣿⣿⠟⢁⣴⣿⣿⣿⣿
+            ⣿⣿⣿⣿⣿⠟⢁⣴⣿⣿⠟⢁⣴⣿⣿⡿⠋⣠⣾⣿⣿⠟⢁⣴⣿⣿⣿⣿⣿⣿
+            ⣿⣿⣿⠟⢁⣴⣿⣿⣿⣿⣶⣿⣿⡿⠋⣠⣾⣿⣿⠟⢁⣴⣿⣿⣿⣿⣿⣿⣿⣿
+            ⣿⣿⠁⣴⣿⣿⣿⣿⣿⣿⣿⡿⠋⣠⣾⣿⣿⠟⢁⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+            ⣿⣿⠀⢿⣿⣿⣿⣿⣿⡿⠋⣠⣾⣿⣿⠟⢁⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+            ⣿⣿⣧⡈⠻⢿⣿⡿⠋⣠⣾⣿⣿⡟⢁⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+            ⣿⣿⣿⣿⣷⣶⣶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</pre>
+            <h4> хз зачем современным сайтам(если они не сайты для прогеров)
+                примеры кода
+            </h4>
+            <pre>
+                <code>
+                    template<typename T>
+                        concept C1 = sizeof(T) != sizeof(int);
+                         
+                        template<C1 T>
+                        struct S1 {};
+                         
+                        template<C1 T>
+                        using Ptr = T*;
+                         
+                        S1<int>* p;                      // error: constraints not satisfied
+                        Ptr<int> p;                      // error: constraints not satisfied
+                </code>
+            </pre>
+            <br>
+            <h3>Цитата философа:</h3>
+            <blockquote>
+                <p>C без ++ - ампутация без анестезии</p>
+                <cite>Джейсон Стэтхэм</cite>
+            </blockquote>
+            <br>
+            20м<sup>2</sup> - столько гречки на наших складах
+            <br>
+            Мы не добавляем H<sub>2</sub>O в наше пшено
+    </main>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <nav>
+            <ul>
+              <li><a href='#'>О нас</a></li>
+              <li><a href='#'>Контакты</a></li>
+              <li><a href='#'>Правила сайта</a></li>
+            </ul>
+        </nav>
+        <p>Телефон: +123456789</p>
+        <p>Email: mail@mail.ru</p>
+    </footer>
+</div>
+</body>
+
+
+</html>
+
+<!-- 
+Каталог
+Доставка (всякая инфа о том как возможно доставить)
+Оплата (всякая инфа о том как оплатить)
+Личный кабинет
+ -->
