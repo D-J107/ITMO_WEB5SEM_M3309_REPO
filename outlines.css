@@ -1,0 +1,82 @@
+.main {
+    text-align: center;
+}
+
+.Title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: black;
+}
+
+.login-button {
+    box-shadow: 2px 2px 2px;
+}
+
+.registry-button {
+    box-shadow: 2px 2px 2px;
+}
+
+.Menu {
+    font-size: 15px;
+    line-height: normal;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* фон всего сайта */
+* {background-color: whitesmoke}
+
+ul {
+    list-style: none;
+}
+
+.product-item {
+    position: relative;
+    color: black;
+}  
+
+
+.product-image-wrap img {
+    position: relative;
+    width: 150px;
+}
+
+.product-image-wrap .Sale  {
+    position: absolute;
+    margin: 0 5px 5px 0;
+    top: 0px;
+    left: 55px;
+    padding: 0.15em;
+    background-color: #FE7200;
+    color:azure;
+}
+
+.product-image-wrap .Discount {
+    position: absolute;
+    margin: 0 5px 5px 0;
+    top: 0;
+    left: 0;
+    padding: 0.15em;
+    background-color: #e44542;
+    color:azure;
+}
+
+.cart-images {
+    width: 40px;
+    padding-left: 15px;
+}
+
+.product-text-description {
+    font-size: 15px;
+    line-height: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:lighter;
+    text-align: left;
+    color: black;
+    background-color: whitesmoke;
+    text-indent: 0%;
+    white-space: inherit;
+    text-transform: none;
+}
+
