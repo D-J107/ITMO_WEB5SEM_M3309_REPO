@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="магазин круп">
+    <meta name="keywords" content="онлайн магазин круп">
+    <link rel="stylesheet" href="outlines.css">
+    <title>Магазин круп</title>
+</head>
+
+
+<body>
+  <!-- TODO_3_LABA: сделать grid для хедера - меню/название/лого -->
+   <!-- без сетки тяжело выравнивать положение элементов -->
+    <header>
+        <div class="main">
+        <h1 class="Title">Магазин круп</h1>
+        <a href="будущая_ссылка_на_логин">
+          <!-- TODO_3_LABA: при наведении мышки на кнопку она должна подсвечиваться -->
+        <button class="login-button">Логин</button>
+        </a>
+
+        <a href="будущая_ссылка_на_логин">
+        <!-- TODO_3_LABA: при наведении мышки на кнопку она должна подсвечиваться -->
+        <button class="registry-button">Регистрация</button>
+        </a>
+
+        <h2 class="logo"><a href="/" rel="home"> <img src="images/logo.png" width="100" height="100"  ></a></h2>
+    </header>
+    <main>
+        <aside class="main">
+            <strong>Совет:</strong> ешьте гречку!
+        </aside>
+        <section class="Menu">
+            Меню
+            <nav>
+                <ul>
+                  <li><a href='#'>Каталог</a></li>
+                  <li><a href='#'>Личный кабинет</a></li>
+                  <li><a href='#'>Оплата</a></li>
+                  <li><a href='#'>Доставка</a></li>
+                  <li><a href='#'>Контакты</a></li>
+                </ul>
+              </nav>
+        </section>
+        <section id="my-products">
+            <h1>Каталог</h1>
+            <div class="product-list">
+              <!-- TODO_3_LABA: добавить сетку 
+               как в целом для всего каталога
+               так и для каждого товара в отдельности -->
+            <ul>
+              <!-- Каждый товар будет разделён на сайте на 3 части: -->
+              <li class="product-item">
+
+                <!-- 1 часть - фото и возможно надпись с скидкой или Распродажей -->
+                <div class="product-image-wrap">
+                  <img src="images/пшено.jpg">
+                  <h4 class="Sale">Распродажа</h4>
+                  <h4 class="Discount">-17%</h4>
+                </div>
+
+                <!-- 2 часть название предмета -->
+                <div class="product-title">
+                  <p class="product-text-description">Пшено</p>
+                </div>
+
+                <!-- 3 часть цена и кнопка покупки -->
+                <div class="product-price-and-click-button">
+              <p class="product-text-description">234 руб
+                <a href="ссылка_на_покупку_пшена">
+                <img class="cart-images" src="images/cart.jpg">
+                </a>
+              </p>
+                </div>
+
+
+              </li>
+              <br>
+              <br>
+              <br>
+
+              <li class="product-item">
+
+                <!-- 1 -->
+                <div class="product-image-wrap">
+                  <img src="images/манка.jpg">
+                  <h4 class="Discount">-12%</h4>
+                </div>
+
+                <!-- 2 -->
+                <div class="product-title">
+                  <p class="product-text-description">Манка</p>
+                </div>
+
+                <!-- 3  -->
+                <div class="product-price-and-click-button">
+                  <p class="product-text-description">522450 руб
+                    <a href="ссылка_на_покупку_манки">
+                    <img class="cart-images" src="images/cart.jpg">
+                    </a>
+                  </p>
+                </div>
+              </li>
+              <br>
+              <br>
+              <br>
+
+              <li class="product-item">
+
+
+                <!-- 1 -->
+                <div class="product-image-wrap">
+                  <img src="images/гречка.jpg">
+                </div>
+
+                <!-- 2 -->
+                <div class="product-title">
+                  <p class="product-text-description">Гречка</p>
+                </div>
+
+                <!-- 3  -->
+                <div class="product-price-and-click-button">
+                  <p class="product-text-description">9999 руб
+                    <a href="ссылка_на_покупку_гречки">
+                    <img class="cart-images" src="images/cart.jpg">
+                    </a>
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+          </section>
+          
+          
+    </main>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <nav>
+            <ul>
+              <li><a href='#'>О нас</a></li>
+              <li><a href='#'>Контакты</a></li>
+              <li><a href='#'>Правила сайта</a></li>
+            </ul>
+        </nav>
+        <p>Телефон: +123456789</p>
+        <p>Email: mail@mail.ru</p>
+    </footer>
+</div>
+</body>
+
+
+</html>
