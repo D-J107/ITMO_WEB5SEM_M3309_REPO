@@ -2,6 +2,7 @@
     text-align: center;
 }
 
+
 .Title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
@@ -26,13 +27,13 @@
 
 
 
-.Menu {
+
     font-size: 15px;
     line-height: normal;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     text-align: left;
-}
+
 
 /* фон всего сайта */
 * {background-color: whitesmoke}
@@ -201,4 +202,5 @@ ul {
     .table-row > div {
         text-align: left;
     }
+
 }
