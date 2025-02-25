@@ -1,8 +1,11 @@
 {
   "name": "nest-app",
   "version": "0.0.1",
+  "engines": {
+    "node": ">=18"
+  },
   "description": "",
-  "author": "",
+  "author": "Nikiforov Aleksandr Nikiforov515@yandex.ru",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -21,6 +24,7 @@
   },
   "dependencies": {
     "@nestjs/common": "^11.0.1",
+    "@nestjs/config": "^4.0.0",
     "@nestjs/core": "^11.0.1",
     "@nestjs/platform-express": "^11.0.1",
     "reflect-metadata": "^0.2.2",
